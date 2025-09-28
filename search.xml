@@ -8,7 +8,7 @@
       <link href="/2025/09/28/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
       <url>/2025/09/28/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="电磁场简正模"><a href="#电磁场简正模" class="headerlink" title="电磁场简正模"></a>电磁场简正模</h1><p>电磁波的方向的判断：</p><script type="math/tex; mode=display">\begin{align*}kx-\omega t&=\Delta \quad \Rightarrow \quad x=\frac{\omega}{k} t+\frac{1}{k}\Delta\\kx+\omega t&=\Delta \quad \Rightarrow \quad x=-\frac{\omega}{k} t+\frac{1}{k}\Delta\end{align*}</script><p>若 $x$ 如第一式随 $t$ 的增加而增加，则是右行波；若 $x$ 如第二式随 $t$ 的增加而减小，则是左行波。也就是说 $kx$ 和 $\omega$ 异号是右行波，同号是左行波。</p>]]></content>
       
       
       
