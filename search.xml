@@ -8,9 +8,21 @@
       <link href="/2025/09/28/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
       <url>/2025/09/28/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<h1 id="电磁场简正模"><a href="#电磁场简正模" class="headerlink" title="电磁场简正模"></a>电磁场简正模</h1><p>电磁波的方向的判断：</p><script type="math/tex; mode=display">\begin{align*}kx-\omega t&=\Delta \quad \Rightarrow \quad x=\frac{\omega}{k} t+\frac{1}{k}\Delta\\kx+\omega t&=\Delta \quad \Rightarrow \quad x=-\frac{\omega}{k} t+\frac{1}{k}\Delta\end{align*}</script><p>若 $x$ 如第一式随 $t$ 的增加而增加，则是右行波；若 $x$ 如第二式随 $t$ 的增加而减小，则是左行波。也就是说 $kx$ 和 $\omega$ 异号是右行波，同号是左行波。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="电磁场简正模"><a href="#电磁场简正模" class="headerlink" title="电磁场简正模"></a>电磁场简正模</h1><h2 id="矢势-mathbf-A-的解"><a href="#矢势-mathbf-A-的解" class="headerlink" title="矢势 $\mathbf{A}$ 的解"></a>矢势 $\mathbf{A}$ 的解</h2><p>取库伦规范并令电标势 $\varphi$ 为 $0$ 可得无源的达朗贝尔矢势方程：</p><script type="math/tex; mode=display">\left[\frac{1}{c^2}\partial^2_t-\nabla ^2\right] \mathbf{A}=0</script><p>波动方程的通解为：</p><script type="math/tex; mode=display">\mathbf{A_k}\left(\mathbf{x}\right)=\vec{C}e^{i\mathbf{k}\cdot \mathbf{x}-i \omega_k t}</script><p>代入达朗贝尔方程，可得矢势 $\mathbf{A}$ 的传播方向与振动方向垂直</p><blockquote><p>自由空间中的平面波也是振动与传播方向垂直，虽然与矢势 $\mathbf{A}$ 的结果相同，但却是从不同的条件得出的：一个是无源条件$\nabla \cdot \mathbf{E}=0$，另一个是库伦规范$\nabla \cdot \mathbf{A}=0$ + 零势能 $\varphi =0$</p></blockquote><p>由于周期性边界条件可用于傅里叶变换，一般采用周期性边界条件。虽然在实际物理系统中不存在周期性边界条件，但当空间无穷大时，边界条件的选取是随意的（距离越远，对势能的影响越小）。得到 $\mathbf{k}$ 的取值</p><script type="math/tex; mode=display">\mathbf{k}=\left(\frac{2\pi}{L_x}n_x,\frac{2\pi}{L_y}n_y,\frac{2\pi}{L_z}n_z\right)</script><p>我们仅能从库伦规范中得到传播方向与振动方向垂直，和从周期性边界条件得到 $\mathbf{k}$ 的取值，并不能确定具体传播方向和振动方向，因此矢势 $\mathbf{A}$ 的方程为所有传播方向 $\mathbf{k}$ 和偏振方向 $\sigma$ 的加和，可写为</p><script type="math/tex; mode=display">\begin{align*}\mathbf{A}\left(\mathbf{x},t\right)&=\sum_{k,\sigma}\left[\alpha _{k \sigma}e^{i\mathbf{k}\cdot \mathbf{x}-i \omega_k t}+\alpha ^*_{k \sigma}e^{-i\mathbf{k}\cdot \mathbf{x}+i \omega_k t}\right]\\&=\sum_{k,\sigma}\left[\alpha _{k \sigma}\left(t\right)e^{i\mathbf{k}\cdot \mathbf{x}}+\alpha ^*_{k \sigma}\left(t\right)e^{-i\mathbf{k}\cdot \mathbf{x}}\right]\end{align*}</script><p>这就是无穷多谐振子的振动集合，式中的共轭项是为了保证 $\mathbf{A}$ 为实数</p><blockquote><p>电磁波的方向的判断：</p><script type="math/tex; mode=display">\begin{align*}kx-\omega t&=\Delta \quad \Rightarrow \quad x=\frac{\omega}{k} t+\frac{1}{k}\Delta\\kx+\omega t&=\Delta \quad \Rightarrow \quad x=-\frac{\omega}{k} t+\frac{1}{k}\Delta\end{align*}</script><p>若 $x$ 如第一式随 $t$ 的增加而增加，则是右行波；若 $x$ 如第二式随 $t$ 的增加而减小，则是左行波。也就是说 $kx$ 和 $\omega$ 异号是正向波波，同号是反向波。</p></blockquote><h2 id="电磁场的哈密顿量"><a href="#电磁场的哈密顿量" class="headerlink" title="电磁场的哈密顿量"></a>电磁场的哈密顿量</h2><p>当取 $\nabla \cdot \mathbf{A}=0,\quad \varphi=0$ 时，电磁场Hamiltonian可写为</p><script type="math/tex; mode=display">H=\int \mathrm{d^3}x\left(\frac{1}{2}\varepsilon_0 \mathbf{E}^2+\frac{1}{2\mu_0}\mathbf{B}^2\right)=\int \mathrm{d^3}x\left[\frac{1}{2}\varepsilon_0\left(\partial_t \mathbf{A}\right)^2+\frac{1}{2\mu_0}\left(\nabla \times \mathbf{A}\right)^2\right]</script>]]></content>
       
       
+      <categories>
+          
+          <category> 课堂笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 量子光学 </tag>
+            
+        </tags>
       
     </entry>
     
