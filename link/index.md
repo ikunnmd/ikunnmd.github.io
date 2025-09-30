@@ -1,0 +1,5 @@
+---
+title: link
+date: 2025-09-20 17:43:55
+type: "link"
+---
